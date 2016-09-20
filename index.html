@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Blade.js</title>
+</head>
+<body>
+
+<script src="dist/blade.js"></script>
+<script>
+
+  var newNumber = new blade().addSign({
+		number: '9999999',
+		// sign: ',',
+    // frequency: 3,
+		// safeFirstSign: false,
+    // addFirstSign: '',
+    // decimals: false
+	});
+
+	console.log(newNumber);
+
+	// ----------------------------------
+
+	var obj1 = {a:'AAA',b:'BBB', c:'CCC'},
+			obj2 = {a:'AAA',b:'222', c:'333'},
+			newObj = new blade().merge(obj1, obj2);
+
+	console.log(newObj);
+
+	// ----------------------------------
+
+  var newString = new blade().sliceString('FirstSecondThird','Second');
+
+  console.log(newString);
+
+</script>
+</body>
+</html>
