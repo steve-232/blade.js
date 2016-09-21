@@ -1,4 +1,4 @@
-// Plugin Name: Blade.js
+// Plugin Name: blade.js
 // Git:		      https://github.com/steve-232/blade.js.git
 // Description: Few useful functions for everyday programming.
 // Version:     1.0
